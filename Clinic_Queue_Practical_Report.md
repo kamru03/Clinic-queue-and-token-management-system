@@ -27,7 +27,7 @@
     max-height: 85mm !important;
   }
   .model-page .mermaid svg {
-    max-height: 42mm !important;
+    max-height: 52mm !important;
   }
 }
 .page-break {
@@ -38,68 +38,92 @@
   text-align: center;
 }
 .cover-box {
-  border: 2px solid #222222;
-  padding: 16mm 12mm;
-  margin: 4mm auto;
+  border: 2.5px solid #1E3A5F;
+  padding: 14mm 12mm;
+  margin: 2mm auto;
+  min-height: 250mm;
 }
-.two-col-table {
-  width: 100%;
+.details-table {
+  width: 90%;
+  margin: 8mm auto;
   border-collapse: collapse;
-  margin-top: 12mm;
+  font-size: 11.5pt;
 }
-.two-col-table td {
-  width: 50%;
+.details-table td {
+  padding: 5px 8px;
   vertical-align: top;
-  padding: 4mm;
-  text-align: left;
-  border: 1px solid #cccccc;
+  border: none;
+}
+.details-table td.label {
+  font-weight: bold;
+  color: #1E3A5F;
+  width: 38%;
+  white-space: nowrap;
+}
+.details-table td.val {
+  font-weight: bold;
+  color: #111827;
+  width: 62%;
 }
 </style>
 
-<!-- ==================== PAGE 1: FRONT PAGE ==================== -->
+<!-- ==================== PAGE 1: FRONT PAGE (ADAMAS UNIVERSITY) ==================== -->
 
 <div class="center-page cover-box">
 
-### **[UNIVERSITY / INSTITUTION NAME]**
-#### **[DEPARTMENT OF COMPUTER SCIENCE & ENGINEERING]**
+<h1 style="font-family: 'Algerian', 'Times New Roman', serif; font-size: 26pt; color: #1E3A5F; margin-bottom: 4mm; letter-spacing: 1px;">
+ADAMAS UNIVERSITY
+</h1>
+
+<div style="margin: 6mm auto 8mm auto;">
+  <img src="adamas_logo.png" alt="Adamas University Logo" style="width: 135px; height: auto;" />
+</div>
+
+<div style="border-top: 1.5px solid #94A3B8; border-bottom: 1.5px solid #94A3B8; padding: 4mm 0; margin: 4mm auto; width: 85%;">
+  <h3 style="margin: 0; color: #111827; font-size: 14pt; letter-spacing: 1px;">END-SEMESTER PRACTICAL FILE</h3>
+  <p style="margin: 2px 0 0 0; color: #475569; font-size: 11pt; font-weight: bold;">Software Engineering Laboratory</p>
+</div>
 
 <br/>
 
----
-
-### **END-SEMESTER PRACTICAL FILE**
-#### **Subject:** [Course Name — e.g., Software Engineering / DBMS Lab] &nbsp;|&nbsp; **Code:** [Course Code]
-
-<br/><br/>
-
-# **Clinic Queue and Token Management System (CQTMS)**
-
-#### *Practical Project Documentation & System Design Report*
-
-<br/><br/>
-
-<table class="two-col-table">
+<table class="details-table">
   <tr>
-    <td>
-      <strong>Submitted By:</strong><br/>
-      Name: <strong>[Student Full Name]</strong><br/>
-      Roll No.: <strong>[University Roll Number]</strong><br/>
-      Class / Sem: <strong>[Branch &amp; Semester]</strong><br/>
-      Batch / Group: <strong>[Lab Batch]</strong>
-    </td>
-    <td>
-      <strong>Submitted To:</strong><br/>
-      Faculty Name: <strong>[Teacher / Examiner Name]</strong><br/>
-      Designation: <strong>[Assistant / Associate Professor]</strong><br/>
-      Department: <strong>[Department Name]</strong><br/>
-      Practical Date: <strong>[DD / MM / YYYY]</strong>
-    </td>
+    <td class="label">Name:-</td>
+    <td class="val">Kamruzzaman Mondal</td>
+  </tr>
+  <tr>
+    <td class="label">Roll No:-</td>
+    <td class="val">UG/SOET/30/24/168</td>
+  </tr>
+  <tr>
+    <td class="label">Registration No.:-</td>
+    <td class="val">AU/2024/0000673</td>
+  </tr>
+  <tr>
+    <td class="label">Program:-</td>
+    <td class="val">B.TECH (COMPUTER SCIENCE AND ENGINEERING)</td>
+  </tr>
+  <tr>
+    <td class="label">SEMESTER:-</td>
+    <td class="val">5th</td>
+  </tr>
+  <tr>
+    <td class="label">SUBJECT NAME:-</td>
+    <td class="val">SOFTWARE ENGINEERING</td>
+  </tr>
+  <tr>
+    <td class="label">SUBJECT CODE:-</td>
+    <td class="val">CSE11117</td>
+  </tr>
+  <tr>
+    <td class="label">SCHOOL:-</td>
+    <td class="val">SCHOOL OF ENGINEERING AND TECHNOLOGY</td>
+  </tr>
+  <tr>
+    <td class="label">SESSION:-</td>
+    <td class="val">2026-27</td>
   </tr>
 </table>
-
-<br/><br/>
-
-**Academic Session:** [2026 – 2027]
 
 </div>
 
@@ -109,39 +133,34 @@
 
 <div class="center-page" style="padding-top: 18mm;">
 
-### A PROJECT REPORT ON
+### END-SEMESTER PRACTICAL REPORT
 
 <br/>
 
-# **Clinic Queue and Token Management System (CQTMS)**
+# **Title**
 
-#### *Design, Optimization, and Workflow Integration for Outpatient Healthcare Services*
+## **Clinic Queue and Token Management System (CQTMS)**
+### *A Centralized System for Efficient Patient Flow, Priority Routing, and Integrated Outpatient Healthcare Management*
 
 <br/><br/>
 
-*Submitted in partial fulfillment of the requirements for the End-Semester Practical Assessment of*<br/>
-**[Degree Name — e.g., Bachelor of Technology (B.Tech)]**<br/>
-*in*<br/>
-**[Branch / Specialization — e.g., Computer Science & Engineering]**
+*Submitted in partial fulfillment of the requirements for the End-Semester Practical Assessment in*<br/>
+**Software Engineering Lab (CSE11117)**<br/>
+*for the award of the degree of*<br/>
+**Bachelor of Technology in Computer Science & Engineering**
 
 <br/><br/>
 
 **Submitted By:**<br/>
-**[Student Full Name]**<br/>
-Roll / Registration No.: **[Roll Number / Enrollment ID]**
-
-<br/>
-
-**Under the Guidance of:**<br/>
-**[Guide / Faculty Supervisor Name]**<br/>
-**[Designation, Department]**
+**KAMRUZZAMAN MONDAL**<br/>
+Roll No.: **UG/SOET/30/24/168** &nbsp;|&nbsp; Registration No.: **AU/2024/0000673**
 
 <br/><br/>
 
-**[Department Name]**<br/>
-**[College / Institution / University Name]**<br/>
-**[City, State — PIN Code]**<br/>
-**November 2026**
+**Department of Computer Science & Engineering**<br/>
+**School of Engineering and Technology**<br/>
+**Adamas University, Kolkata, West Bengal**<br/>
+**Academic Session: 2026 – 2027**
 
 </div>
 
@@ -224,29 +243,27 @@ To design, model, and develop a unified, web-based **Clinic Queue and Token Mana
 
 ### Specific Objectives
 
-1. **Automate Digital Registration & Token Generation:**
-   Replace manual paper slips with an online appointment booking and QR-code walk-in check-in module, enabling patients to generate verifiable digital tokens remotely or at the clinic entrance.
-2. **Provide Real-Time Queue Tracking & Turn Alerts:**
-   Build a live queue dashboard displaying the currently served token, queue position, and Estimated Waiting Time (EWT), supported by timely turn alerts to minimize waiting-room congestion and prevent missed turns.
-3. **Implement Priority-Aware & Walk-In Compatible Routing:**
-   Support equitable multi-tier queue prioritization (`Emergency/Urgent`, `Senior/Vulnerable`, `Returning Post-Test`, `Scheduled Appointment`, and `Normal Walk-In`) instead of rigid FCFS sequencing.
-4. **Integrate Consultation & Pharmacy Workflows:**
-   Connect reception check-in directly with doctor consultation recording and an online pharmacy module (medicine catalog, cart, scheduled collection time slot, digital payment, and downloadable invoices).
-5. **Enable Predictive Wait Estimation & Dynamic Staffing Insights:**
-   Provide clinic administrators with real-time queue length, waiting-time alerts, and demand analytics (informed by AI pre-triage concepts and Queuing-DEA capacity monitoring) to support timely doctor and pharmacist reallocation.
-6. **Ensure Inclusive Usability & Rigorous System Verification:**
-   Design a clean, responsive, accessible web interface for users across all age and digital literacy levels, and validate reliability through structured Black-Box Functional Testing and User Acceptance Testing (UAT).
+1. **To provide secure patient and staff authentication:** Maintain accurate patient profiles, doctor availability, and role-based permissions in a centralized relational database.
+2. **To automate digital registration & token generation:** Replace manual paper slips with an online appointment booking and QR-code walk-in check-in module.
+3. **To provide real-time queue tracking & EWT updates:** Display currently served tokens, live queue positions, and estimated waiting times to reduce anxiety and waiting hall crowding.
+4. **To implement priority-aware queue routing:** Balance urgent triage, senior citizens, and returning post-lab patients alongside standard walk-ins instead of rigid FCFS ordering.
+5. **To integrate consultation and digital prescriptions:** Enable physicians to record diagnoses, complaints, and digital prescriptions connected directly to subsequent stages.
+6. **To unify pharmacy dispensing and collection:** Allow patients to review prescribed medicines, choose pickup slots, settle bills, and download itemized invoices.
+7. **To supply real-time operational analytics for administrators:** Monitor active queue lengths, stage delays, and doctor workload to dynamically allocate clinical staff.
+8. **To verify system performance via structured testing:** Validate data integrity, role authorization, and queue concurrency through Black-Box and User Acceptance Testing (UAT).
 
 ### Objective-to-Module Mapping
 
 | Obj. | System Module | Target Users | Expected Outcome |
 | :--- | :--- | :--- | :--- |
-| **O1** | Auth, Booking & QR Token Engine | Patients, Reception | Eliminates paper tokens & physical check-in queues |
-| **O2** | Live Queue Board & EWT Tracker | Patients, Staff | Cuts perceived wait time, anxiety & missed turns |
-| **O3** | Priority & Walk-In Queue Router | Reception, Doctors | Balances urgent triage & unscheduled walk-in surges |
-| **O4** | Consultation & Pharmacy Checkout | Doctors, Pharmacists | Unifies diagnosis, prescriptions & medicine pickup |
-| **O5** | Queue Load & Staffing Analytics | Administrators | Proactive bottleneck detection & staff allocation |
-| **O6** | Accessible UI & QA Test Suite | All Stakeholders | High usability, data accuracy & system reliability |
+| **O1** | Role-Based Auth & Profiles | All Users | Secure access & segregated patient/staff data |
+| **O2** | Online Booking & QR Token Engine | Patients, Reception | Eliminates physical queues & manual paper slips |
+| **O3** | Live Queue Dashboard & EWT Tracker | Patients, Staff | Transparent waiting times & reduced anxiety |
+| **O4** | Priority & Walk-In Queue Router | Reception, Doctors | Equitable triage for seniors & emergency cases |
+| **O5** | Consultation & E-Prescription Portal | Doctors | Direct clinical diagnosis & prescription handover |
+| **O6** | Integrated Pharmacy & Invoicing | Pharmacists, Patients | Seamless medicine ordering & collection slots |
+| **O7** | Queue Load & Staffing Analytics | Administrators | Proactive bottleneck detection & doctor roster control |
+| **O8** | QA Test Suite & Usability Audits | All Stakeholders | High data accuracy, concurrency & system stability |
 
 <div class="page-break"></div>
 
@@ -354,7 +371,7 @@ erDiagram
     }
 ```
 
-**Schema Notes:** The optional one-to-one relation (`|o--o|`) between `APPOINTMENT` and `QUEUE_TOKEN` supports both pre-booked appointments and unscheduled walk-in patients. `QUEUE_TOKEN` tracks clinical stage (`Registration`, `Consultation`, `Pharmacy`) and priority tier (`Emergency`, `Senior`, `Returning`, `Normal`).
+**Schema Notes:** The optional one-to-one relation (`|o--o|`) between `APPOINTMENT` and `QUEUE_TOKEN` accommodates both pre-booked appointments and unscheduled walk-in patients. `QUEUE_TOKEN` tracks clinical stage (`Registration`, `Consultation`, `Pharmacy`) and priority tier (`Emergency`, `Senior`, `Returning`, `Normal`).
 
 <div class="page-break"></div>
 
@@ -432,72 +449,66 @@ flowchart LR
 
 <div class="page-break"></div>
 
-<!-- ==================== PAGE 9: SUITABLE MODEL ==================== -->
+<!-- ==================== PAGE 9: SUITABLE MODEL (ITERATIVE WATERFALL MODEL) ==================== -->
 
 <div class="model-page">
 
-## 6. Suitable Software Development Model: Agile SDLC Model
+## 6. Suitable Model for Clinic Queue and Token Management System
 
-### 6.1 Overview of the Selected Model
-To develop the **Clinic Queue and Token Management System (CQTMS)**, the **Agile Software Development Life Cycle (SDLC) Model** was selected. Following the iterative approach demonstrated in the QKlinik outpatient study (*Fauzi & Suhaimi, 2025*), Agile breaks the project into time-boxed **sprints** (1–4 weeks each). Every sprint cycles through **Planning, Design, Development, Testing, Deployment, and Evaluation**, producing a working, tested software increment at the end of each iteration.
+### 6.1 Selection of the Iterative Waterfall Model
+The **Iterative Waterfall Model** is the most suitable Software Development Life Cycle (SDLC) model for the **Clinic Queue and Token Management System (CQTMS)**. The project has clearly defined clinical requirements, strict healthcare data dependencies, and multiple interconnected functional modules (appointment booking, QR token issuing, live queue tracking, consultation recording, and pharmacy dispensing).
+
+Unlike the rigid Classical Waterfall model where requirements are completely frozen upfront, the **Iterative Waterfall Model provides a structured development path across nine systematic phases** while allowing developers to return to previous phases when errors, algorithmic adjustments, or clinical feedback are identified. For example, if during the testing phase of queue sequencing or estimated wait-time calculation an issue is discovered, developers can easily iterate back to the design or implementation phase to adjust the priority weighting or database schema without compromising the overall project integrity.
 
 ```mermaid
-flowchart LR
-    P(["1. Planning &<br/>Backlog"]) --> D(["2. System &<br/>UI Design"])
-    D --> DEV(["3. Iterative<br/>Development"])
-    DEV --> T(["4. Black-Box<br/>& UAT Testing"])
-    T --> DEP(["5. Sprint<br/>Deployment"])
-    DEP --> EV(["6. Evaluation<br/>& Feedback"])
-    EV -.->|"Next Sprint Refinement"| P
+flowchart TD
+    P1["1. Requirement Analysis"] --> P2["2. Feasibility Study"]
+    P2 --> P3["3. Project Planning"]
+    P3 --> P4["4. System & UI Design"]
+    P4 --> P5["5. Implementation (Coding)"]
+    P5 --> P6["6. Module Integration"]
+    P6 --> P7["7. System & UAT Testing"]
+    P7 --> P8["8. Production Deployment"]
+    P8 --> P9["9. System Maintenance"]
+
+    P7 -.->|"Iterative Defect Feedback"| P5
+    P7 -.->|"Design Refinement"| P4
+    P6 -.->|"Interface Feedback"| P4
+    P9 -.->|"Maintenance Iterations"| P1
 ```
 
-### 6.2 Why Agile is Most Suitable for CQTMS
+### 6.2 Key Advantages of Iterative Waterfall for CQTMS
 
-1. **Adaptability to Dynamic Clinic Workflows:** Outpatient clinics face fluctuating walk-in volumes and evolving triage rules; Agile allows priority weights and wait-time formulas to be refined per sprint without restarting the project.
-2. **Continuous Multi-Role Stakeholder Feedback:** CQTMS serves patients (across diverse age and digital literacy levels), doctors, pharmacy staff, and administrators—frequent sprint reviews validate usability early.
-3. **Incremental Module Delivery:** Core modules (authentication, QR tokens, live queue board, consultation, and pharmacy checkout) are built and verified step-by-step, reducing integration risk.
-4. **Embedded Quality Assurance:** Running Black-Box Functional Testing and User Acceptance Testing (UAT) in every sprint ensures token sequencing accuracy and role-based data security.
-
-### 6.3 Comparative Analysis of SDLC Models
-
-| Evaluation Criteria | Agile SDLC Model (Selected) | Waterfall Model | Spiral Model |
-| :--- | :--- | :--- | :--- |
-| **Requirement Flexibility** | High — adapts to clinic workflow changes per sprint | Low — freezes requirements upfront | Moderate to High |
-| **Stakeholder Feedback** | Continuous at every sprint review | Only at final delivery stage | Per risk-analysis loop |
-| **Time to Working Build** | Fast — usable increments in early sprints | Slow — single release at project end | Moderate — high planning overhead |
-| **Suitability for Clinic UI/UX** | Ideal for refining accessibility & queue UX | Poor — risks late usability mismatches | Overly complex for small/medium clinics |
+1. **High Process Discipline & Traceability:** Each phase delivers explicit documentation (SRS, ERD, DFD, Test Reports) essential for healthcare information systems.
+2. **Error Detection with Feedback Loops:** Permits returning to requirement, design, or coding phases upon detecting queue synchronization or concurrency bugs.
+3. **Manageable Phase Boundaries:** Enables modular verification before integrating complex pharmacy billing and doctor consultation sub-systems.
+4. **Appropriate for Academic & Practical Evaluation:** Demonstrates systematic adherence to established Software Engineering principles (as per Sommerville and Pressman).
 
 </div>
 
 <div class="page-break"></div>
 
-<!-- ==================== PAGE 10: EXPLANATION OF PHASES ==================== -->
+<!-- ==================== PAGE 10: EXPLANATION OF ALL 9 PHASES ==================== -->
 
-## 7. Detailed Explanation of Agile SDLC Phases
+## 7. Explanation of all 9 Phases
 
-Each sprint of the **Clinic Queue and Token Management System** executes six structured phases that progressively convert clinical needs into a tested, deployable solution:
+The development of the **Clinic Queue and Token Management System (CQTMS)** progresses through nine sequential and iterative phases. The table below outlines each phase alongside its specific clinical and technical activities:
 
-### Phase 1: Requirement Analysis & Sprint Planning
-Operational bottlenecks identified from outpatient studies (long manual waits, walk-in surges, missed-turn delays, and siloed pharmacy lines) are captured as user stories in a prioritized **Product Backlog**. Stakeholders—patients, doctors, pharmacy staff, and administrators—define functional rules (QR check-in, priority routing, medicine ordering) and non-functional targets (response speed, security, accessibility). During Sprint Planning, top-priority backlog items and technical stack choices are assigned to the upcoming sprint.
+| PHASE | Activities in Clinic Queue & Token Management System |
+| :--- | :--- |
+| **1. Requirement Analysis** | Identify patient, doctor, clinic staff, pharmacist, and administrator workflow requirements. |
+| **2. Feasibility Study** | Check technical, economic, and operational feasibility of web-based QR queuing & pharmacy integration. |
+| **3. Planning** | Decide project timeline, database resource allocation, security protocols, and development schedule. |
+| **4. Design** | Prepare ERD, DFD Level 0, DFD Level 1, relational database schema, and responsive UI wireframes. |
+| **5. Implementation** | Develop login, appointment booking, QR token generation, live queue board, and pharmacy modules. |
+| **6. Integration** | Connect user interfaces with the central database, queue management engine, and invoicing service. |
+| **7. Testing** | Test authentication, priority routing (Emergency/Senior/Walk-In), EWT calculations, and payment checkout. |
+| **8. Deployment** | Install and launch the web system for clinic reception counters, doctor cabins, and waiting-room displays. |
+| **9. Maintenance** | Fix operational errors, update doctor availability rosters, maintain medicine stocks, and improve features. |
 
-### Phase 2: System & UI/UX Design
-Produces the architectural blueprint across a **three-tier web architecture**: the *Presentation Layer* (responsive patient and staff UI), the *Application Logic Layer* (token sequencing, priority rules, EWT calculation), and the *Backend Data Layer* (normalized relational tables). Database schemas are modeled via the **ERD**, cross-module data flows via **Level 0 and Level 1 DFDs**, and accessible wireframes with clear typography and high contrast for elderly users.
+### Detailed Phase Summary
 
-### Phase 3: Iterative Development (Implementation)
-Approved designs are implemented across incremental feature sprints:
-- *Sprint 1 (Access & Booking):* Patient, staff, and doctor registration, role-based authentication, and appointment slot booking.
-- *Sprint 2 (Token & Live Queue Engine):* QR walk-in check-in, multi-tier priority tokens (`Emergency`, `Senior`, `Returning`, `Normal`), and live queue position + EWT tracking.
-- *Sprint 3 (Consultation & Pharmacy):* Doctor consultation notes, medicine catalog, shopping cart, pickup slot checkout, and downloadable invoices.
-- *Sprint 4 (Analytics & Alerts):* Turn notifications and an administrator dashboard tracking queue lengths and staffing demand.
-
-### Phase 4: Testing & Quality Assurance
-Implemented modules undergo two structured validation stages before release:
-- **Black-Box Functional Testing:** Verifies input–output accuracy across registration, credential updates, queue ordering, pharmacy transactions, invoice downloads, and role-based access control.
-- **User Acceptance Testing (UAT) & Load Checks:** Representative patients, physicians, and clinic staff evaluate realistic workflows using structured usability feedback alongside concurrent-session load verification.
-
-### Phase 5: Deployment
-Validated sprint builds are deployed to the web server and relational database environment. Key tasks include schema migration, credential and transport security hardening, clinic reception QR display setup, and brief staff orientation so walk-in patients without smartphones can be assisted smoothly at the counter.
-
-### Phase 6: Evaluation, Feedback & Maintenance
-Post-deployment metrics—average wait-time reduction, missed-turn frequency, consultation turnaround, and UAT satisfaction—are reviewed against project objectives. Insights such as messaging API alerts, multilingual support, and AI/capacity threshold tuning are added back into the Product Backlog to guide subsequent maintenance sprints.
+- **Phases 1–3 (Analysis & Planning):** Capture functional needs such as multi-tier token priority, walk-in registration, and estimate wait times to ensure operational viability without requiring expensive proprietary hardware.
+- **Phases 4–6 (Design & Integration):** Construct normalized relational tables (Patient, Token, Doctor, Order) and link front-end Vue/React/HTML interfaces to Node/Python API backends with WebSocket live queue updates.
+- **Phases 7–9 (Testing to Maintenance):** Validate concurrency under peak morning OPD rushes (Black-Box & UAT testing), deploy to clinic premises, and perform routine schema and roster updates.
 
